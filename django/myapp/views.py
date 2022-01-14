@@ -13,7 +13,7 @@ def HTMLTemplate(articleTag):
     global topics
     ol = ''
     for topic in topics:
-        ol += f'<li><a href="/read/{topic["id"]}">{topic["title"]}</a> </li>'
+        ol += f'<li><a href="/read/{topic["id"]}">{topic["title"]}</a></li>'
     return f'''
     <html>
     <body>
